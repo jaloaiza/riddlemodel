@@ -97,3 +97,69 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# LlamaSharp
+*.gguf
+*.bin
+*.safetensors
+# Common model locations
+Assets/StreamingAssets/Models/
+
+# App / plugin caches (if you store any under the repo)
+**/cache/
+**/.cache/
+**/*_cache/
+
+# LLM logs/dumps
+**/llm_logs/
+**/llama_logs/
+**/*.log
+**/*.trace
+**/*.dmp
+
+# Native build artifacts
+**/build/
+**/cmake-build-*/
+**/*.o
+**/*.obj
+**/*.so
+**/*.dylib
+**/*.dll
+**/*.a
+**/*.lib
+**/*.pdb
+**/*.ilk
+
+# NuGet / dotnet restore outputs
+**/packages/
+**/nuget.config.user
+**/project.assets.json
+**/*.nuget.props
+**/*.nuget.targets
+
+# dotnet tooling caches (repo-local)
+**/.nuget/
+**/.packages/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+
+*.nupkg
+*.snupkg
+
+# JetBrains (Rider/IntelliJ) project settings
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# VS / VSCode
+.vs/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
